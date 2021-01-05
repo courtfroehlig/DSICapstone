@@ -1,1 +1,3 @@
 # DSICapstone
+
+Introduction and Aims:
