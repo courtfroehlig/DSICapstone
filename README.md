@@ -2,7 +2,7 @@
 
 <b>Introduction and Aims:</b>
 
-Technological skills and competence are an essential key to entering the 21st century workforce, especially as technologies evolve quickly and become an increasingly integral part of the economy. However, technology provision, access and connectivity do not, in themselves, lead to ICT competence in learning and teaching (international comparative study of pedagogy and ICT use in schools, SITES 2006).  For this reason, the topic of students’ digital self-efficacy and confidence has gained considerable attention in research about students’ learning and  outcomes.
+Technological skills and competence are essential in entering the 21st century workforce, especially as technologies evolve quickly and become an increasingly integral part of the economy. However, technology provision, access and connectivity do not, in themselves, lead to ICT competence in learning and teaching (international comparative study of pedagogy and ICT use in schools, SITES 2006).  For this reason, the topic of students’ digital self-efficacy and confidence has gained considerable attention in research about students’ learning and  outcomes.
 
 The European Commission’s 2nd Survey of Schools: ICT in Education was conducted in 2018, following the first survey conducted in 2011-2012. It was a survey of head teachers, teachers, students and parents from the EU28, Norway, Iceland and Turkey, and it provided detailed information related to access to, use of, and attitudes towards use of digital technologies in schools.  It collected information about the digital home environment of students and schools’ digital policies, strategies and opinions. Finally, it surveyed teachers and students about their digital activities inside and outside the classroom and their confidence in using various digital technologies, including their perceived ability to perform 20 ICT‐related tasks using a Likert scale ranging from ‘none’ to ‘a lot’.
 
@@ -48,6 +48,9 @@ I then decided to more systematically determine the optimal number of clusters, 
 
 Interestingly, adding in teacher survey data into the predictive model improved the model accuracy score, albeit not by a large margin. It seemed teachers' involvement in advanced courses on internet use, their attitudes about ICT use as positively impacting on student motivation, and their practices around presenting to the entire class were important positive predictors of their students being in the higher confidence class, and their lack of experience negatively predicted being in the high confidence class. In general, this speaks to the importance of schools investing in teachers' professional development in ICT, with a particular focus on supporting them to understand how to teach ICT in a way that can cater to an entire class of diverse learners and in ways that help them understand how their teaching around ICT impacts student motivation. 
 
+Link to data cleaning and exploration: https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb
+
+Link to data modelling: https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb
 
 
 
