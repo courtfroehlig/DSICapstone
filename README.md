@@ -35,15 +35,17 @@ The variables were also all scales (except thecountry code), with some skew in t
 
 I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
 
-<b> Modelling and Findings </b>
+<b> Modelling </b>
 
-I separated train and test sets and used  cross-validation scores to check for robustness. I applied several machine learning classification models with many different parameters and identified the accuracy as well as precision and recall scores to determine success of the models. 
-
-I also conducted a Hierarchical Cluster Analysis to determine whether it would be useful to utilise different target classes (i.e. besides just 'low' and 'high' confidence) based on the 15 confidence variables. That is, I wanted to know if the 15 confidence questions varied systematically in more nuanced ways across participants. I examined groups at n = 5, 3, and 2 clusters. I utilised both z linkage and kmeans clustering. 
+I separated train and test sets and used  cross-validation scores to check for robustness. I applied several machine learning classification models with many different parameters and identified the accuracy as well as precision and recall scores to determine success of the models. I also conducted a Hierarchical Cluster Analysis to determine whether it would be useful to utilise different target classes (i.e. besides just 'low' and 'high' confidence) based on the 15 confidence variables. That is, I wanted to know if the 15 confidence questions varied systematically in more nuanced ways across participants. I examined groups at n = 5, 3, and 2 clusters. I utilised both z linkage and kmeans clustering. 
 
 After qualitatively studying the differences between the three different cluster analyses, it seemed that using five clusters helped to shed some granular insights into the data (i.e. that there might be more nuanced distinctions between classrooms' digital confidence besides just low/(medium)/high). 
 
-For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). Accuracy scores were much better than baseline in this phase of modelling (e.g. the Support Vector Machine had a 55% accuracy score (compared to 37.99% baseline). 
+For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
+
+<b>Findings</b>
+
+Accuracy scores were much better than baseline in this phase of modelling utilising five different clusters as the target classes. Utilising the Support Vector Machine had the best accuracy score (.55, compared to .3799 baseline). 
 
 Utilising these five groups as target classes provided some interesting insights with predictive modelling:
 
