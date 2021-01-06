@@ -19,6 +19,7 @@ The European Commission’s 2nd Survey of Schools: ICT in Education was conducte
 
 
 <b>Describing the data</b>
+
 The student survey data consisted of:
 
 - 11.3 % missing values, imputed with mean
@@ -48,10 +49,8 @@ I then decided to more systematically determine the optimal number of clusters, 
 
 Interestingly, adding in teacher survey data into the predictive model improved the model accuracy score, albeit not by a large margin. It seemed teachers' involvement in advanced courses on internet use, their attitudes about ICT use as positively impacting on student motivation, and their practices around presenting to the entire class were important positive predictors of their students being in the higher confidence class, and their lack of experience negatively predicted being in the high confidence class. In general, this speaks to the importance of schools investing in teachers' professional development in ICT, with a particular focus on supporting them to understand how to teach ICT in a way that can cater to an entire class of diverse learners and in ways that help them understand how their teaching around ICT impacts student motivation. 
 
-[Data cleaning and exploration] (https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb)
-
-[Data modelling and findings] (https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb)
-
+<a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Cleaning and Exploration</a>
+<a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Modelling and Findings</a>
 
 
 
