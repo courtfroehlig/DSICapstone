@@ -51,7 +51,7 @@ Interestingly, adding in teacher survey data into the predictive model improved 
 
 <a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Cleaning and Exploration</a>
 
-<a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Modelling and Findings</a>
+<a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Modelling.ipynb">Data Modelling and Findings</a>
 
 
 
