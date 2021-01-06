@@ -47,7 +47,7 @@ For example: Group 2 had higher variability between lows and highs, with very lo
 
 Accuracy scores were much better than baseline in this phase of modelling utilising five different clusters as the target classes. Utilising the Support Vector Machine had the best accuracy score (.55, compared to .3799 baseline). 
 
-Utilising these five groups as target classes provided some interesting insights with predictive modelling:
+<u>Utilising these five groups as target classes provided some interesting insights with predictive modelling:</u>
 
 Firstly, students were most likely to be a part of the varied confidence group when they often spent time chatting online in their free time and they were least likely to be part of this group when they reported engaging in coding and programming, both in the classroom and in freetime. Students from Finland were most likely to be a part of this group. 
 
