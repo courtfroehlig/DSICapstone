@@ -49,7 +49,7 @@ Accuracy scores were much better than baseline in this phase of modelling utilis
 
 Utilising these five groups as target classes provided some interesting insights with predictive modelling:
 
-Firstly, students were most likely to be a part of the varied confidence group when they often spent time chatting online in their free time and they were least likely to be part of this group when they reported engaging in coding and programming, both in the classroom and in freetime. Students from Finland were most likely to be a part of this group. They were least likely to be a part of this group when they 
+Firstly, students were most likely to be a part of the varied confidence group when they often spent time chatting online in their free time and they were least likely to be part of this group when they reported engaging in coding and programming, both in the classroom and in freetime. Students from Finland were most likely to be a part of this group. 
 
 Secondly, students were most likely to be a part of the high confidence group when they had positive attitudes about ICT supporting collaboration engaged in coding and programming apps during lessons, and least likely when they engaged in social networks. Students from Norway were least likely to be a part of this group.
 
