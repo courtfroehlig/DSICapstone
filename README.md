@@ -11,7 +11,7 @@ The European Commission’s 2nd Survey of Schools: ICT in Education was conducte
 
 - Use student survey questions to predict student confidence in an exploratory way
 
-- Add in teacher student survey questions to see if the model improves
+- Add in teacher student survey questions to see if the model scores improve
 
 - Perform a cluster analysis to better understand students’ digital confidence (with more fine-grained detail than just low/high confidence)
 
