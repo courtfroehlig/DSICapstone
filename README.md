@@ -35,7 +35,7 @@ The variables were also all scales (except thecountry code), with some skew in t
 
 I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
 
-<b> Modelling </b>
+<b> Modelling and Findings </b>
 
 I separated train and test sets and used  cross-validation scores to check for robustness. I applied several machine learning classification models with many different parameters and identified the accuracy as well as precision and recall scores to determine success of the models. 
 
@@ -43,7 +43,15 @@ I also conducted a Hierarchical Cluster Analysis to determine whether it would b
 
 After qualitatively studying the differences between the three different cluster analyses, it seemed that using five clusters helped to shed some granular insights into the data (i.e. that there might be more nuanced distinctions between classrooms' digital confidence besides just low/(medium)/high). 
 
-For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). Accuracy scores were much better than baseline in this phase of modelling (e.g. the Support Vector Machine ha da 55% accuracy score (compared to 37.99% baseline). 
+For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). Accuracy scores were much better than baseline in this phase of modelling (e.g. the Support Vector Machine had a 55% accuracy score (compared to 37.99% baseline). 
+
+Utilising these five groups as target classes provided some interesting insights with predictive modelling:
+
+Firstly, students were most likely to be a part of the varied confidence group when they often spent time chatting online in their free time and they were least likely to be part of this group when they reported engaging in coding and programming, both in the classroom and in freetime. Students from Finland were most likely to be a part of this group. They were least likely to be a part of this group when they 
+
+Secondly, students were most likely to be a part of the high confidence group when they had positive attitudes about ICT supporting collaboration engaged in coding and programming apps during lessons, and least likely when they engaged in social networks. Students from Norway were least likely to be a part of this group.
+
+Finally, students were most likely to be a part of the low confidence group when they reported that their schools encouraged ICT to learn by doing in the classroom and double-checked with another source to determine if an online source was reliable and they were least likely to be a part of this group when they reported that they felt ICT supported independence in learning and engaged in using multimedia production tools in lessons. 
 
 I then decided to more systematically determine the optimal number of clusters, utilising heuristics such as the elbow plots and sillhouette scores. The 'elbow' (i.e. the point after which the SSE drops rapidly, afterwhich decreases in inertia are considerably more marginal than for previous increases in number of clusters) looks to be between 1 and 2 clusters. However, the point at which this elbow actually lied on the plot was somewhat ambiguous. Further, two clusters provided the best silhouette coefficient (.207), compared to .111 for five groups. Based on these evaluation methods, I decided to try modelling (i.e. predicting confidence)  using two clusters (from the hierarchical clustering method), to compare these clusters to the initial modelling using the low/high confidence groups. However, utilising two clusters as the target classes provided similar accuracy scores to the first phase of modelling with low/high confidence groups.
 
