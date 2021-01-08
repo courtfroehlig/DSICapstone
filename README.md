@@ -60,8 +60,8 @@ How confident are you doing the following tasks?<br/><br/><i>Please select one a
 - Learning with educational software, games, apps and quizzes
 - Participate in online training programmes
 
-Aggregated digital confidence across Europe:
-<center>
+<center>Aggregated digital confidence across Europe:
+  
 <img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
 </center>
 
@@ -74,6 +74,11 @@ I separated train and test sets and used  cross-validation scores to check for r
 After qualitatively studying the differences between the three different cluster analyses, it seemed that using five clusters helped to shed some granular insights into the data (i.e. that there might be more nuanced distinctions between classrooms' digital confidence besides just low/(medium)/high). 
 
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
+
+<center>Visualizing the clusters:
+  
+<img src="5clusters" alt="5clusters" width="500" height="333">
+</center>
 
 <b>Findings</b>
 
@@ -90,6 +95,8 @@ Finally, students were most likely to be a part of the low confidence group when
 I then decided to more systematically determine the optimal number of clusters, utilising heuristics such as the elbow plots and sillhouette scores. The 'elbow' (i.e. the point after which the SSE drops rapidly, afterwhich decreases in inertia are considerably more marginal than for previous increases in number of clusters) looks to be between 1 and 2 clusters. However, the point at which this elbow actually lied on the plot was somewhat ambiguous. Further, two clusters provided the best silhouette coefficient (.207), compared to .111 for five groups. Based on these evaluation methods, I decided to try modelling (i.e. predicting confidence)  using two clusters (from the hierarchical clustering method), to compare these clusters to the initial modelling using the low/high confidence groups. However, utilising two clusters as the target classes provided similar accuracy scores to the first phase of modelling with low/high confidence groups.
 
 Interestingly, adding in teacher survey data into the predictive model (i.e. using the two clusters from the most recent clustering analysis) improved the model accuracy score, albeit not by a large margin. Teachers' involvement in advanced courses on internet use, their attitudes about ICT use as positively impacting on student motivation, and their practices around presenting to the entire class were important positive predictors of their students being in the higher confidence class, and their lack of experience negatively predicted being in the high confidence class. <b>In general, this speaks to the importance of schools investing in teachers' professional development in ICT, with a particular focus on supporting them to understand how to teach ICT in a way that can cater to an entire class of diverse learners and in ways that help them understand how their teaching around ICT might support student motivation. </b>
+
+Navigating this repository:
 
 <a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Cleaning and Exploration</a>
 
