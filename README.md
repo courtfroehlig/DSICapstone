@@ -19,6 +19,8 @@ The European Commission’s 2nd Survey of Schools: ICT in Education was conducte
 
 
 <b>Describing the data</b>
+<img src="Capstone_map.png" alt="Trulli" width="500" height="333">
+
 
 The student survey data consisted of:
 
