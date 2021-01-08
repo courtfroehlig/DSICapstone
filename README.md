@@ -36,29 +36,29 @@ The variables were also all scales (except thecountry code), with some skew in t
 
 Confidence variables:
 How confident are you doing the following tasks?<br/><br/><i>Please select one answer for each item.</i>
-<p>- File electronic documents in computer folders and sub-folders</p>
-<p>- Identify online sources of reliable information</p>
-<p>- Check if the information that I find online is true</p>
-<p>- Find websites advertising jobs on offer</p>
-<p>- Email a file to someone/another student or teacher</p>
-<p>- Use other online tools on a computer (e.g. Viber, Google Hangouts, Facebook, Skype, etc.) to contact someone</p>
-<p>- Use mobile applications on a smartphone or a tablet (WhatsApp, Viber, Telegram, Google Hangouts, Facebook messenger, etc.) to contact someone</p>
-<p>- Participate in social networks and use most of their features (e.g. Facebook, Instagram, Twitter, Snapchat, Ask.fm, etc.)</p>
-<p>- Use information found on the internet without plagiarising (e.g. copy/paste in homework)</p>
-<p>- Interacting with other people online in a respectful and polite manner</p>
-<p>- Create blogs or websites and maintain them</p>
-<p>- Produce text using a word processing programme (e.g. Word)</p>
-<p>- Use spreadsheet programmes (e.g. Excel)</p>
-<p>- Create a presentation (e.g. PowerPoint)</p>
-<p>- Edit digital photographs or other graphic images, or videos</p>
-<p>- Code/programme apps, programmes and/or robots</p>
-<p>- Change your privacy settings (e.g. on a social networking site)</p>
-<p>- Run a virus scan on your computer to detect malware</p>
-<p>- Use the Internet safely to protect yourself against bullying</p>
-<p>- Use ICT safely to protect your health against the risks of technologies overuse (e.g. insomnia, back pain, computer addiction)</p>
-<p>- Update the operating system and applications of your computer, tablet or smartphone</p>
-<p>- Learning with educational software, games, apps and quizzes</p>
-<p>- Participate in online training programmes</p>
+- File electronic documents in computer folders and sub-folders
+- Identify online sources of reliable information
+- Check if the information that I find online is true
+- Find websites advertising jobs on offer
+- Email a file to someone/another student or teacher
+- Use other online tools on a computer (e.g. Viber, Google Hangouts, Facebook, Skype, etc.) to contact someone
+- Use mobile applications on a smartphone or a tablet (WhatsApp, Viber, Telegram, Google Hangouts, Facebook messenger, etc.) to contact someone
+- Participate in social networks and use most of their features (e.g. Facebook, Instagram, Twitter, Snapchat, Ask.fm, etc.)
+- Use information found on the internet without plagiarising (e.g. copy/paste in homework)
+- Interacting with other people online in a respectful and polite manner
+- Create blogs or websites and maintain them
+- Produce text using a word processing programme (e.g. Word)
+- Use spreadsheet programmes (e.g. Excel)
+- Create a presentation (e.g. PowerPoint)
+- Edit digital photographs or other graphic images, or videos
+- Code/programme apps, programmes and/or robots
+- Change your privacy settings (e.g. on a social networking site)
+- Run a virus scan on your computer to detect malware
+- Use the Internet safely to protect yourself against bullying
+- Use ICT safely to protect your health against the risks of technologies overuse (e.g. insomnia, back pain, computer addiction)
+- Update the operating system and applications of your computer, tablet or smartphone
+- Learning with educational software, games, apps and quizzes
+- Participate in online training programmes
 
 Aggregated digital confidence across Europe:
 <center>
