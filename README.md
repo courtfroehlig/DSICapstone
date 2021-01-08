@@ -26,13 +26,13 @@ The student survey data consisted of:
 - 11.3 % missing values, imputed with mean
 - 48835 rows, 181 columns
 
-The variables were all scales (except country code), with some skew on the variables with higher ranges but very few outliers due to small scale ranges. There was high multicollinearity among many of the variables, which I planned to treat with L2 regularization.
+The variables were all scales (except country code), with some skew on the variables with higher ranges but very few outliers due to small scale ranges. There was high multicollinearity among many of the variables.
 
 The teacher survey data consisted of:
 - 6.6% missing data, imputed with mean
 - 9927 rows, 151 columns
 
-The variables were also all scales (except thecountry code), with some skew in the variables with higher ranges but very few outliers due to small scale ranges. I decided to treat variables as continuous, except for the country. There was also high multicollinearity among many of the variables.
+The variables were  all scales (except the country code), with some skew in the variables with higher ranges but very few outliers due to small scale ranges. I decided to treat variables as continuous, except for the country. There was also high multicollinearity among many of the variables.
 
 The target variable was student confidence, which comprised of 23 questions asking how confident students were at the following tasks:
 - File electronic documents in computer folders and sub-folders
