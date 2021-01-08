@@ -1,6 +1,6 @@
 # Data Science Capstone: Predicting Students’ Digital Confidence in Schools Across Europe Based on the European Commission’s 2nd Survey of Schools
 
-<b>Introduction and Aims:</b>
+<b>Introduction and Aims</b>
 
 Technological skills and competence are essential to entering the 21st century workforce, especially as technologies evolve quickly and become an increasingly integral part of the economy. However, technology provision, access and connectivity do not, in themselves, lead to ICT competence in learning and teaching (international comparative study of pedagogy and ICT use in schools, SITES 2006).  For this reason, the topic of students’ digital self-efficacy and confidence has gained considerable attention in research about students’ learning and outcomes.
 
