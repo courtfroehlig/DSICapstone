@@ -61,7 +61,7 @@ The target variable was student confidence, which comprised of 23 questions aski
 
 The survey asked to select one answer for each item.
 
-  <b>I mapped aggregate confidence across all of the EU countries surveyed:</b>
+  <b><i>I mapped aggregate confidence across all of the EU countries surveyed:</i></b>
 
 <p align="center">
   
@@ -80,7 +80,7 @@ After qualitatively studying the differences between the three different cluster
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
 
 
-  <b>I visualized the distribution of the 23 confidence questions across the 5 distinct clusters:</b>
+  <b><i>I visualized the distribution of the 23 confidence questions across the 5 distinct clusters:</i></b>
 
 <p align="center">  
 <img src="5clusters.png" alt="5clusters" width="500" height="333">
