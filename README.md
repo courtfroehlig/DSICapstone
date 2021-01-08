@@ -37,11 +37,11 @@ The variables were also all scales (except thecountry code), with some skew in t
 Confidence variables:
 How confident are you doing the following tasks?<br/><br/><i>Please select one answer for each item.</i>
 - File electronic documents in computer folders and sub-folders
-- Identify online sources of reliable information
-- Check if the information that I find online is true
-- Find websites advertising jobs on offer
+- Identify online sources of reliable information 
+- Check if the information that I find online is true 
+- Find websites advertising jobs on offer 
 - Email a file to someone/another student or teacher
-- Use other online tools on a computer (e.g. Viber, Google Hangouts, Facebook, Skype, etc.) to contact someone
+- Use other online tools on a computer (e.g. Viber, Google Hangouts, Facebook, Skype, etc.) to contact someone 
 - Use mobile applications on a smartphone or a tablet (WhatsApp, Viber, Telegram, Google Hangouts, Facebook messenger, etc.) to contact someone
 - Participate in social networks and use most of their features (e.g. Facebook, Instagram, Twitter, Snapchat, Ask.fm, etc.)
 - Use information found on the internet without plagiarising (e.g. copy/paste in homework)
@@ -60,10 +60,10 @@ How confident are you doing the following tasks?<br/><br/><i>Please select one a
 - Learning with educational software, games, apps and quizzes
 - Participate in online training programmes
 
-<center>Aggregated digital confidence across Europe:
+<p align="center">
   
 <img align="center" img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
-</center>
+</p>
 
 I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
 
@@ -75,10 +75,13 @@ After qualitatively studying the differences between the three different cluster
 
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
 
-<center>Visualizing the clusters:
+<p align="center">Visualizing the clusters across the 15 distinct confidence variables:
   
 <img align="center" img src="5clusters.png" alt="5clusters" width="500" height="333">
-</center>
+<a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes">See confidence variable codes</a>
+
+</p>
+
 
 <b>Findings</b>
 
