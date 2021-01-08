@@ -1,4 +1,4 @@
-# Data Science Capstone
+# Data Science Capstone: Predicting Students’ Digital Confidence in Schools Across Europe Based on the European Commission’s 2nd Survey of Schools
 
 <b>Introduction and Aims:</b>
 
@@ -62,6 +62,8 @@ Interestingly, adding in teacher survey data into the predictive model (i.e. usi
 <a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Cleaning and Exploration</a>
 
 <a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Modelling%20and%20Findings.ipynb">Data Modelling and Findings</a>
+
+NB: For full functionality of html links within each notebook, please view them by pasting the notebook link into https://nbviewer.jupyter.org/
 
 
 
