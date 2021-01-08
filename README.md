@@ -78,13 +78,13 @@ After qualitatively studying the differences between the three different cluster
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
 
 
-  <b>I visualized the distribution of the 15 confidence variables across the 5 distinct clusters</b>
+  <b>I visualized the distribution of the 15 confidence variables across the 5 distinct clusters:</b>
 
 <p align="center">  
 <img src="5clusters.png" alt="5clusters" width="500" height="333">
 <a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes">
   
-  See confidence variable codes</a>
+ <center>See confidence variable codes</center></a>
 
 </p>
 
