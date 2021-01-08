@@ -109,11 +109,14 @@ Interestingly, adding in teacher survey data into the predictive model (i.e. usi
 
 
 <b>Reflections and next steps:</b>
-It ismportant to think about different types of digital competence, e.g. operational use and social media use (descriminating using social media for communication with other students about school work vs. using it for recreational/leisure purposes) , in addition to safe and responsible use of the internet
+It is important to think about different types of digital competence, e.g. operational use and social media use (descriminating using social media for communication with other students about school work vs. using it for recreational/leisure purposes), in addition to safe and responsible use of the internet. It appears there may be certain students who feel confident in their digital social media skills but not as confident in more technical applications (e.g. coding/programming). This is an important finding which could have implications for how we characterise and measure digital confidence in the future. 
 
 Students reported overall lower confidence on programming/creating websites, but they reported higher confidence when they participated in online training programmes and used ICT to collaborate with other students
 
-Moving forward: look at differences between age groups/school levels, measure actual digital competence/skills in order develop a better understanding of how outcomes relate to confidence; examine students’ experiences with ICT in schools and at home as predictors of digital skills and competence
+Moving forward, it would be valuable to:
+1. Look at differences between age groups/school levels
+2. Measure actual digital competence/skills in order develop a better understanding of how outcomes relate to confidence
+3. Examine students’ experiences with ICT in schools and at home as predictors of digital skills and competence
 
 
 Navigating this repository:
