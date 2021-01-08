@@ -105,6 +105,15 @@ I then decided to more systematically determine the optimal number of clusters, 
 
 Interestingly, adding in teacher survey data into the predictive model (i.e. using the two clusters from the most recent clustering analysis) improved the model accuracy score, albeit not by a large margin. Teachers' involvement in advanced courses on internet use, their attitudes about ICT use as positively impacting on student motivation, and their practices around presenting to the entire class were important positive predictors of their students being in the higher confidence class, and their lack of experience negatively predicted being in the high confidence class. <b>In general, this speaks to the importance of schools investing in teachers' professional development in ICT, with a particular focus on supporting them to understand how to teach ICT in a way that can cater to an entire class of diverse learners and in ways that help them understand how their teaching around ICT might support student motivation. </b>
 
+
+<b>Reflections and next steps:</b>
+It ismportant to think about different types of digital competence, e.g. operational use and social media use (descriminating using social media for communication with other students about school work vs. using it for recreational/leisure purposes) , in addition to safe and responsible use of the internet
+
+Students reported overall lower confidence on programming/creating websites, but they reported higher confidence when they participated in online training programmes and used ICT to collaborate with other students
+
+Moving forward: look at differences between age groups/school levels, measure actual digital competence/skills in order develop a better understanding of how outcomes relate to confidence; examine students’ experiences with ICT in schools and at home as predictors of digital skills and competence
+
+
 Navigating this repository:
 
 <a href="https://github.com/courtfroehlig/DSICapstone/blob/main/CF_Capstone_Data%20cleaning%20and%20exploration.ipynb">Data Cleaning and Exploration</a>
