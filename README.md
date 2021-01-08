@@ -62,7 +62,7 @@ How confident are you doing the following tasks?<br/><br/><i>Please select one a
 
 <center>Aggregated digital confidence across Europe:
   
-<img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
+<img align="center" img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
 </center>
 
 I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
@@ -77,7 +77,7 @@ For example: Group 2 had higher variability between lows and highs, with very lo
 
 <center>Visualizing the clusters:
   
-<img src="5clusters" alt="5clusters" width="500" height="333">
+<img align="center" img src="5clusters.png" alt="5clusters" width="500" height="333">
 </center>
 
 <b>Findings</b>
