@@ -60,8 +60,9 @@ How confident are you doing the following tasks?<br/><br/><i>Please select one a
 - Learning with educational software, games, apps and quizzes
 - Participate in online training programmes
 
-<p align="center">
   <b>I mapped aggregate confidence across all of the EU countries surveyed:</b>
+
+<p align="center">
   
 <img align="center" img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
 </p>
@@ -76,12 +77,14 @@ After qualitatively studying the differences between the three different cluster
 
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
 
-<p align="center">
+
   <b>I visualized the distribution of the 15 confidence variables across the 5 distinct clusters</b>
-  
+
+<p align="center">  
 <img src="5clusters.png" alt="5clusters" width="500" height="333">
-<a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes"></a>
-  See confidence variable codes
+<a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes">
+  
+  See confidence variable codes</a>
 
 </p>
 
