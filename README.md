@@ -19,7 +19,7 @@ The European Commission’s 2nd Survey of Schools: ICT in Education was conducte
 
 
 <b>Describing the data</b>
-<img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
+
 
 The student survey data consisted of:
 
@@ -33,6 +33,37 @@ The teacher survey data consisted of:
 - 9927 rows, 151 columns
 
 The variables were also all scales (except thecountry code), with some skew in the variables with higher ranges but very few outliers due to small scale ranges. I decided to treat variables as continuous, except for the country. There was also high multicollinearity among many of the variable.
+
+Confidence variables:
+How confident are you doing the following tasks?<br/><br/><i>Please select one answer for each item.</i>
+-File electronic documents in computer folders and sub-folders
+-Identify online sources of reliable information
+-Check if the information that I find online is true
+-Find websites advertising jobs on offer
+-Email a file to someone/another student or teacher
+Use other online tools on a computer (e.g. Viber, Google Hangouts, Facebook, Skype, etc.) to contact someone
+Use mobile applications on a smartphone or a tablet (WhatsApp, Viber, Telegram, Google Hangouts, Facebook messenger, etc.) to contact someone
+Participate in social networks and use most of their features (e.g. Facebook, Instagram, Twitter, Snapchat, Ask.fm, etc.)
+Use information found on the internet without plagiarising (e.g. copy/paste in homework)
+Interacting with other people online in a respectful and polite manner
+Create blogs or websites and maintain them
+Produce text using a word processing programme (e.g. Word)
+Use spreadsheet programmes (e.g. Excel)
+Create a presentation (e.g. PowerPoint)
+Edit digital photographs or other graphic images, or videos
+Code/programme apps, programmes and/or robots
+Change your privacy settings (e.g. on a social networking site)
+Run a virus scan on your computer to detect malware
+Use the Internet safely to protect yourself against bullying
+Use ICT safely to protect your health against the risks of technologies overuse (e.g. insomnia, back pain, computer addiction)
+Update the operating system and applications of your computer, tablet or smartphone
+Learning with educational software, games, apps and quizzes
+Participate in online training programmes
+
+Digital confidence across Europe:
+<center>
+<img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
+</center>
 
 I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
 
