@@ -80,7 +80,8 @@ For example: Group 2 had higher variability between lows and highs, with very lo
   <b>I visualized the distribution of the 15 confidence variables across the 5 distinct clusters</b>
   
 <img src="5clusters.png" alt="5clusters" width="500" height="333">
-<a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes">See confidence variable codes</a>
+<a href="https://github.com/courtfroehlig/Data-Science-Capstone-Project/blob/main/ConfidenceVariableCodes"></a>
+  See confidence variable codes
 
 </p>
 
