@@ -32,10 +32,9 @@ The teacher survey data consisted of:
 - 6.6% missing data, imputed with mean
 - 9927 rows, 151 columns
 
-The variables were also all scales (except thecountry code), with some skew in the variables with higher ranges but very few outliers due to small scale ranges. I decided to treat variables as continuous, except for the country. There was also high multicollinearity among many of the variable.
+The variables were also all scales (except thecountry code), with some skew in the variables with higher ranges but very few outliers due to small scale ranges. I decided to treat variables as continuous, except for the country. There was also high multicollinearity among many of the variables.
 
-Confidence variables:
-How confident are you doing the following tasks?<br/><br/><i>Please select one answer for each item.</i>
+The target variable was student confidence, which comprised of 23 questions asking how confident students were at the following tasks:
 - File electronic documents in computer folders and sub-folders
 - Identify online sources of reliable information 
 - Check if the information that I find online is true 
@@ -60,6 +59,8 @@ How confident are you doing the following tasks?<br/><br/><i>Please select one a
 - Learning with educational software, games, apps and quizzes
 - Participate in online training programmes
 
+The survey asked to select one answer for each item.
+
   <b>I mapped aggregate confidence across all of the EU countries surveyed:</b>
 
 <p align="center">
@@ -71,14 +72,15 @@ I iniitally divided the target variable, confidence, into two (relatively) equal
 
 <b> Modelling </b>
 
-I separated train and test sets and used  cross-validation scores to check for robustness. I applied several machine learning classification models with many different parameters and identified the accuracy as well as precision and recall scores to determine success of the models. I also conducted a Hierarchical Cluster Analysis to determine whether it would be useful to utilise different target classes (i.e. besides just 'low' and 'high' confidence) based on the 15 confidence variables. That is, I wanted to know if the 15 confidence questions varied systematically in more nuanced ways across participants. I examined groups at n = 5, 3, and 2 clusters. I utilised both z linkage and kmeans clustering. 
+I separated train and test sets and used  cross-validation scores to check for robustness. I applied several machine learning classification models with many different parameters and identified the accuracy as well as precision and recall scores to determine success of the models. I also conducted a Hierarchical Cluster Analysis to determine whether it would be useful to utilise different target classes (i.e. besides just 'low' and 'high' confidence) based on the 
+confidence variables. That is, I wanted to know if the 23 confidence questions varied systematically in more nuanced ways across participants. I examined groups at n = 5, 3, and 2 clusters. I utilised both z linkage and kmeans clustering. 
 
 After qualitatively studying the differences between the three different cluster analyses, it seemed that using five clusters helped to shed some granular insights into the data (i.e. that there might be more nuanced distinctions between classrooms' digital confidence besides just low/(medium)/high). 
 
 For example: Group 2 had higher variability between lows and highs, with very low confidence with coding & creating websites, and high confidence on using mobile applications/social media. Group 3 was consistently high among variables, with very high scores on coding and creating websites. Group 4 was consistently low overall - low on both coding/programming/creating websites and social media/communication. Therefore, I decided to use these five clusters as my target variable to see if using these clusters as classes helped the predictive model to improve in accuracy and could help shed insights about what factors might predict these distinct classes (especially groups 2, 3, and 4). 
 
 
-  <b>I visualized the distribution of the 15 confidence variables across the 5 distinct clusters:</b>
+  <b>I visualized the distribution of the 23 confidence questions across the 5 distinct clusters:</b>
 
 <p align="center">  
 <img src="5clusters.png" alt="5clusters" width="500" height="333">
