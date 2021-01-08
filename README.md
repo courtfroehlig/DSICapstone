@@ -19,8 +19,7 @@ The European Commission’s 2nd Survey of Schools: ICT in Education was conducte
 
 
 <b>Describing the data</b>
-<img src="Capstone_map.png" alt="EU Map" width="500" height="333">
-
+<img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
 
 The student survey data consisted of:
 
