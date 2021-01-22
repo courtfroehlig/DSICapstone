@@ -59,7 +59,7 @@ The target variable was student confidence, which comprised of 23 questions aski
 - Learning with educational software, games, apps and quizzes
 - Participate in online training programmes
 
-The survey asked to select one answer for each item.
+The survey asked participants to select one answer for each item.
 
   <b><i>I mapped aggregate confidence across all of the EU countries surveyed:</i></b>
 
@@ -68,7 +68,7 @@ The survey asked to select one answer for each item.
 <img align="center" img src="EU_survey_map.png" alt="EU Map" width="500" height="333">
 </p>
 
-I iniitally divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
+I initially divided the target variable, confidence, into two (relatively) equal groups of ‘low’ and ‘high’ confidence around the median. That is, 54% of participants were in in the low confidence group and 45% of participants were in the high confidence group. These were uneven groups due to the the high proportion of data points that were positioned exactly at the median.
 
 <b> Modelling </b>
 
